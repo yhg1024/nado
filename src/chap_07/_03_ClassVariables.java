@@ -1,7 +1,5 @@
 package chap_07;
 
-import jdk.nashorn.internal.ir.BlockLexicalContext;
-
 public class _03_ClassVariables {
     public static void main(String[] args) {
         BlackBox b1 = new BlackBox();

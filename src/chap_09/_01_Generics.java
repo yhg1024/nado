@@ -1,9 +1,5 @@
 package chap_09;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
-import static javax.xml.bind.DatatypeConverter.printDouble;
-
 public class _01_Generics {
     public static void main(String[] args) {
         // 제네릭스 : 다양한 타입의 객체를 지원하는 클래스나 메소드를 정의하는 방법

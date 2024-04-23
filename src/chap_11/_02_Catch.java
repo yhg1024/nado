@@ -15,7 +15,11 @@ public class _02_Catch {
             // System.out.println(s.toLowerCase());
 
             // Exception 모든 예외들의 조상클래스
-        } catch (ArithmeticException | ArrayIndexOutOfBoundsException e) { // 두개의 예외를 한꺼번에 쓰기 위해 사이에 | 쓰기
+        } catch (ArithmeticException e) { // 두개의 예외를 한꺼번에 쓰기 위해 사이에 | 쓰기
+            System.out.println("뭔가 잘못 계산을 하셨네요.");
+        //} catch (ArrayIndexOutOfBoundsException e) {
+        //    System.out.println("인덱스를 잘못 설정했어요.");
+        } catch (ArrayIndexOutOfBoundsException e) { // 두개의 예외를 한꺼번에 쓰기 위해 사이에 | 쓰기
             System.out.println("뭔가 잘못 계산을 하셨네요.");
         //} catch (ArrayIndexOutOfBoundsException e) {
         //    System.out.println("인덱스를 잘못 설정했어요.");
