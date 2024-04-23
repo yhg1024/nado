@@ -30,12 +30,16 @@ public class _Quiz_12_1 {
         thread1.start();
         thread2.start();
 
-        try {
+        while (thread1.isAlive() || thread2.isAlive()) {
+            // thread1이 살아있거나 thread2가 살아 있으는 동안 계속 돌아간다.
+        }
+
+        /*try {
             thread1.join();
             thread2.join();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
-        }
+        }*/
 
         Runnable productSet = () -> {
             System.out.println("== 세트 상품 포장 시작 ==");
